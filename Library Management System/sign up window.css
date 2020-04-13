@@ -1,0 +1,77 @@
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url(background.jfif);
+    background-size: cover;
+}
+.signup
+{
+  
+     width: 320px;
+    height: 460px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 10px 30px; 
+}
+form
+{
+    width: 240px;
+    text-align: center;
+}
+input
+{
+    
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    border: none;
+    width: 190px;
+    background: whitesmoke;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=button]:hover
+{
+    color: #fff;
+    background-color: black;
+}
+h2
+{
+    color: #000;
+    
+}
+a
+{
+    color: black;
+    text-decoration: blink;
+}
+a:hover
+{
+    color: #8791d6;
+}
+::placeholder {
+    color:aliceblue;
+    opacity: 0.8; /* Firefox */
+}
